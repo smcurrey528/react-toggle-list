@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
+import ToggleList from './components/ToggleList';
 
 class App extends Component {
   render() {
     return (
-       <h1>Toggle List</h1>
-    );
+       <div>
+       <h1> Toggle List </h1>
+       <ToggleList/>
+       </div>
+    )
   }
 }
 
