@@ -7,6 +7,7 @@ class App extends Component {
     return (
        <div>
        <h1> Toggle List </h1>
+       <h5> Click on the name to see more information</h5>
        <ToggleList/>
        </div>
     )
